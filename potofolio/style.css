@@ -1,0 +1,90 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body .whole{
+  background-image: url(back.jpg); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ 
+  
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav {
+  margin-left: auto; 
+}
+
+
+footer,.back{
+  background-image: url(back.jpg);
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+header nav ul li:hover{
+  color: black;
+  background-color: #00b2da;
+  padding: 3px;
+  transition: 0.5s;
+
+}
+.icons2 a i:hover {
+  background-color:#00b2da;  
+  transition: 0.5s;;  
+  
+}
+.icons a i:hover {
+  background-color:#00b2da;  
+  transition: 0.5s;;  
+  
+}
+
+.S1 .button:hover{
+  color:black;
+  background-color: #00b2da;  
+  transition: 0.5s;
+  border: none;
+}
+.C2 .button:hover{
+  
+  background-color: #00b2da;  
+  transition: 0.5s;
+  border: none;
+}
+
+
+
+
+@media screen and (max-width:990px){
+  main p{
+
+      text-align: center;
+  }
+  .S1{
+    align-items: center;
+  }
+  
+  .S2{
+      display: none;
+  }
+
+  .C1{
+      text-align: center;
+  }
+  .C1 .H5{
+      text-align: start;
+      padding:20px 0;
+  }
+  
+ 
+}
