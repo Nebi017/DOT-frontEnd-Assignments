@@ -35,10 +35,7 @@ function display(str){
     displayNext();
 }
 
-
 let names = ['thomas', 'nebiy', 'eskndr','tenketem','tewelde'];
-let length=names.length;
-console.log(length);
 display(names);
 
 
