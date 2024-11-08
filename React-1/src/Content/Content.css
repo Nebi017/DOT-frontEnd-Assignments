@@ -1,0 +1,19 @@
+.feature {
+    height: 60vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: 200 !important;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   }
+
+section hr{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.348);
+}
+p a{
+    color: black;
+}
+
